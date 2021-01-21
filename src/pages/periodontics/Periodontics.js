@@ -3,6 +3,8 @@ import { connect } from "react-redux";
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 import './Periodontics.scss';
+import Heading from '../../components/heading/Heading';
+import Slider from '../../components/image-slider/Slider';
 
 const mapStateToProps = (state) => {
     return {
@@ -116,13 +118,10 @@ class Periodontics extends Component {
     render() {
         return (
             <div className='wrapper'>
-                <div className='main-heading' style={{ backgroundImage: 'url(foggy-birds.png)' }}>
-                    <h1>
-                        {this.props.periodonticsPage.name}
-                    </h1>
-                </div>
+                <Heading heading={this.props.periodonticsPage.name} />
                 <div className='main-container-periodontics pt-lg-5'>
                     <div className='container'>
+                        <Slider images={this.props.periodonticsPage.decorativePhotos} />
                         {this.createContent()}
                         {this.createCollapsableContent()}
                     </div>

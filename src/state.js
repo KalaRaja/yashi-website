@@ -43,7 +43,14 @@ const state = {
         {
             name: 'Periodontics',
             link: 'periodontics',
-            decorativePhotos: [],
+            decorativePhotos: [
+                {
+                    photo: 'd1.jpeg'
+                },
+                {
+                    photo: 'd2.jpg'
+                }
+            ],
             content: [
                 {
                     title: 'Who is a Periodontist (Gum Specialist)?',

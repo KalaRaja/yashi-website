@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { connect } from "react-redux";
-import Carousel from 'react-bootstrap/Carousel'
-import Card from 'react-bootstrap/Card'
-import ListGroup from 'react-bootstrap/ListGroup'
-import ListGroupItem from 'react-bootstrap/ListGroupItem'
+import Card from 'react-bootstrap/Card';
+import ListGroup from 'react-bootstrap/ListGroup';
+import ListGroupItem from 'react-bootstrap/ListGroupItem';
 import './Home.scss';
+import Slider from '../../components/image-slider/Slider';
 
 const mapStateToProps = (state) => {
     return {
@@ -13,28 +13,6 @@ const mapStateToProps = (state) => {
 }
 
 class Home extends Component {
-
-    createCarousel() {
-        return (
-            <Carousel>
-                {this.props.homepage.profilePhotos.map((photo) => {
-                    return (
-                        <Carousel.Item key={Math.random()}>
-                            <img
-                                className="d-block w-100"
-                                src={photo.photo}
-                                alt="First slide"
-                            />
-                            <Carousel.Caption>
-                                <h3>photo.caption</h3>
-                                <p>photo.description</p>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                    )
-                })}
-            </Carousel>
-        );
-    }
 
     createCard() {
         const descriptionLines = this.props.homepage.content.description;
@@ -104,7 +82,7 @@ class Home extends Component {
                 <div className='container'>
                     <div className='row'>
                         <div className='profile col-lg-6'>
-                            {this.createCarousel()}
+                            <Slider images={this.props.homepage.profilePhotos} />
                         </div>
                         <div className='content col-lg-6'>
                             {this.createCard()}
