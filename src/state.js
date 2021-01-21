@@ -104,24 +104,206 @@ const state = {
                     ],
                     images: [],
                     links: []
+                },
+                {
+                    title: 'Symptoms of Periodontal Infection ',
+                    texts: [
+                        'Periodontal infection is usually painless until it reaches an advanced stage. However, there are some symptoms which can indicate the presence of periodontal infection. These include:',
+                        'Red or swollen gums',
+                        'Bleeding when brushing (pink toothbrush), or at other times',
+                        'Aching, itchy, sore or tender gums',
+                        'Receding gums (teeth beginning to look longer)',
+                        'Pus between your teeth and gums when you press down on the gums',
+                        'Bad breath',
+                        'Any change in the way your teeth fit together when you bite',
+                        'Any change in the fit of partial dentures',
+                        'Loose, separating or protruding teeth',
+                        'Spaces between teeth',
+                        'If you notice any of the above warning signs of periodontal infection, please contact your general dentist and ask for a periodontal evaluation',
+                        'Important Note: Your gums can look and feel quite normal and yet deep pockets of periodontal infection can still be present. To be certain about any periodontal disease, ask your dentist or periodontist to examine your gums for signs of infection'
+                    ],
+                    images: [],
+                    links: []
                 }
             ]
         },
         {
             name: 'Meet The Doctor',
-            link: 'meet'
+            link: 'meet',
+            decorativePhotos: [{
+                photo: 'profile1.jpeg'
+            }, {
+                photo: 'profile2.jpeg'
+            }],
+            content: [
+                {
+                    title: '',
+                    texts: [
+                        'Dr Yashi specialises in the field of Periodontology and Implantology, a field of dentistry which deals with the inflammatory disease that destroys gums and other supporting structures around the tooth.',
+                        'She graduated from a very renowned institution VK Institute of Dental Sciences, KLE Belgaum and completed post-graduation from reputed Faculty of Dental Sciences, Ramaiah University of Applied Sciences. To pursue her interest in the field of Implants she has also received a fellowship degree in Oral Implantology (FICOI) from International Congress of Oral Implantology.',
+                        'She is a member of Indian Society of Periodontology. In order to keep her updated with the recent advances in Periodontics she has also attended numerous workshops on Lasers and Microsurgery in Periodontology. Dr Yashi believes in providing quality treatment to her patients and has a valuable concept of ethics and honesty and respect for methods and protocols in the management of patients.'
+                    ],
+                    images: [],
+                    links: []
+                }
+            ]
         },
         {
             name: 'Periodontal Treatments',
-            link: 'treatments'
+            link: 'treatments',
+            decorativePhotos: [],
+            content: [
+                {
+                    title: 'NON-SURGICAL PERIODONTAL TREATMENT',
+                    texts: [
+                        'AAP treatment guidelines stress that periodontal health should be achieved in the least invasive and most cost-effective manner. This is often accomplished through non-surgical periodontal treatment.',
+                        'Non-surgical periodontal treatment does have its limitations. When it does not achieve periodontal health, surgery may be indicated to restore periodontal health.'
+                    ],
+                    images: [],
+                    links: []
+                },
+                {
+                    title: 'SCALING AND ROOT PLANING',
+                    texts: [
+                        'Scaling and root planing is a careful cleaning of the root surfaces to remove plaque and calculus [tartar] from deep periodontal pockets and to smooth the tooth root to remove bacterial toxins. Scaling and root planing is sometimes followed by adjunctive therapy such as local delivery antimicrobials, systemic antibiotics, and host modulation, as needed on a case-by-case basis.',
+                        'Most periodontists would agree that after scaling and root planing, many patients do not require any further active treatment. However, the majority of patients will require ongoing maintenance therapy to sustain health.'
+                    ],
+                    images: ['sarp.png'],
+                    links: []
+                },
+                {
+                    title: 'LASER GUM THERAPY',
+                    texts: [
+                        'Depending on your treatment needs, the laser may be for a long period of time or possibly only for brief moments. However, even those procedures that require only a short period of laser usage benefit from the advantages of laser therapy. With laser surgery, there is a reduced need for local anesthetics, bleeding is minimized, swelling is controlled, and there is usually little, if any, postoperative discomfort'
+                    ],
+                    images: ['lgt.png'],
+                    links: []
+                },
+                {
+                    title: 'REGENERATIVE PROCEDURES/ BONE GRAFTING',
+                    texts: [
+                        'Bone grafting is a treatment that recreates the natural volume and contours of the bone supporting our teeth. There are three major indications for the build-up of bone (bone grafting):',
+                        'For aesthetics, to improve contours around teeth and/or maintain the shape of a young, healthy face.',
+                        'To prevent excessive bone loss after an extraction (ridge preservation)',
+                        'To replace lost bone (bone reconstruction)'
+                    ],
+                    images: ['rpbg1.png', 'rpbg2.png', 'rpbg3.png'],
+                    links: []
+                },
+                {
+                    title: 'GUM GRAFTING',
+                    texts: [
+                        'When gum recession occurs, teeth lose their attachment which is a natural defence against bacteria and trauma. Recession is always accompanied by root exposure, which leads to sensitivity and leaves them exposed and susceptible to root decay. Recession can be caused by grinding, past treatment with orthodontics (braces), malocclusion, and aggressive tooth brushing. Treatments and habits can be a greater risk for people who, based on their genetics, naturally have thin gums. When gum recession is a problem soft tissue grafting techniques may be a solution',
+                        'A gum graft is designed to solve problems such as thin gums or insufficient gum coverage (recession). A thin piece of tissue is used to provide a stable band of attached gingiva around the tooth. The gingival graft may be placed to cover the exposed portion of the root or to increase the thickness of existing gums. This procedure is highly predictable and results in a stable healthy band of attached tissue around the tooth'
+                    ],
+                    images: ['gg1.png', 'gg2.png'],
+                    links: []
+                },
+                {
+                    title: 'CROWN LENGTHENING',
+                    texts: [
+                        'Crown lengthening is a periodontal procedure that involves reshaping the bone and gums to create the correct proportions for an aesthetic smile. It may also be required when your tooth needs a crown or deep restorations below the gum tissue. Crown lengthening allows your dentist to access the area and keeps the restoration away from the bone for a predictable long-term crown or restoration',
+                        'Crown lengthening involves adjusting the level of the gum tissue and bone around the tooth to create a new gum-to-tooth relationship. This allows your dentist to access the edge of the restoration ensuring a proper fit and sealed margin. It will also increase the amount of tooth structure available upon to attach the crown, reducing the possibility that your new restoration will become loose in the future. This improved access also allows you and your hygienist to better clean restoration margins where plaque and calculus can accumulate. Overall this helps to fend off recurrent decay and gum disease'
+                    ],
+                    images: ['cl1.png', 'cl2.png'],
+                    links: []
+                }
+            ]
         },
         {
             name: 'Gum Disease Faqs',
-            link: 'faqs'
+            link: 'faqs',
+            decorativePhotos: [],
+            content: [
+                {
+                    title: 'WHAT CAUSES PERIODONTAL DISEASE (PERIODONTITIS)?',
+                    texts: [
+                        'Periodontitis is caused by any condition that promotes bacterial infection around teeth. These include a patient’s medical condition, not adhering to ongoing maintenance, or a lack of adequate oral hygiene.'
+                    ],
+                    images: [],
+                    links: []
+                },
+                {
+                    title: 'WHAT WILL INCREASE MY RISK OF GETTING PERIODONTITIS?',
+                    texts: [
+                        'Any factors that increase bacterial growth will increase your risks of periodontitis. The major risk factors include:',
+                        'Poor oral hygiene',
+                        'Smoking',
+                        'Poorly controlled diabetes',
+                        'Non-compliance with prescribed hygiene maintenance program',
+                        'Other risk factors include:',
+                        'Aging',
+                        'Genetic predisposition',
+                        'Systemic diseases and conditions',
+                        'Stress',
+                        'Inadequate nutrition',
+                        'Puberty',
+                        'Hormonal fluctuations',
+                        'Pregnancy',
+                        'Substance abuse',
+                        'HIV infection',
+                        'Certain medications'
+                    ],
+                    images: [],
+                    links: []
+                },
+                {
+                    title: 'HOW IS PERIODONTITIS DIAGNOSED?',
+                    texts: [
+                        'Patient symptoms may include: pain, tooth mobility, bad taste, and bleeding gums. It is important to note that in most cases there may be no symptoms noticed.',
+                        'Signs observed by your dentist or hygienist include: suppuration (pus), bleeding, progressive bone loss, and increasing probing depths around all or some teeth.'
+                    ],
+                    images: [],
+                    links: []
+                },
+                {
+                    title: 'DO I HAVE PERIODONTAL DISEASE?',
+                    texts: [
+                        'To protect your oral health, learn to recognize the signs of infection.  Periodontal disease symptoms include:',
+                        'red, inflamed gums',
+                        'bleeding gums',
+                        'Receding gums',
+                        'Loose teeth',
+                        'Chronic bad breath',
+                        'Pus around teeth and gums',
+                        'Changes in bite'
+                    ],
+                    images: [],
+                    links: []
+                },
+                {
+                    title: 'HOW IS PERIODONTITIS TREATED?',
+                    texts: [
+                        'There are multiple ways in which periodontitis can be addressed, both surgically and non-surgically. The precise treatment plan depends on your unique conditions. In most cases a regular hygiene regimen with antimicrobial and anti-micro biotic therapies are prescribed.  In some cases periodontal surgery is needed'
+                    ],
+                    images: [],
+                    links: []
+                },
+                {
+                    title: 'WHAT ARE THE CONSEQUENCES IF PERIODONTITIS IS NOT TREATED?',
+                    texts: [
+                        'Often the initial symptoms of Periodontitis are very mild and may not be noticed by the patient. Without treatment, the disease progresses, bacteria infect the gums and bone, at which point the teeth can become loose and may have to be removed'
+                    ],
+                    images: [],
+                    links: []
+                }
+            ]
         },
         {
             name: 'First Visit',
-            link: 'visit'
+            link: 'visit',
+            decorativePhotos: [],
+            content: [
+                {
+                    title: '',
+                    texts: [
+                        'During the first visit, Dr Yashi Priya usually reviews the patient’s complete medical and dental histories. It is extremely important for the periodontist to know if any medications are being taken or if the patient is being treated for any condition that can affect periodontal care, such as heart disease, diabetes, or pregnancy.',
+                        'The periodontist examines the gums, checks to see if there is any gum line recession, assesses how the teeth fit together when biting, and checks the teeth to see if any are loose. The periodontist will also take a small measuring instrument called a probe and place it between the teeth and gums to determine the depth of those spaces, known as periodontal pockets; this helps the periodontist assess the health of the gums. X-rays (OPG) may also be taken to observe the health of the bone below the gum line.'
+                    ],
+                    images: [],
+                    links: []
+                }
+            ]
         }
     ]
 };

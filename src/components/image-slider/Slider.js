@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-
+import './Slider.scss'
 export default class Slider extends Component {
 
     render() {
@@ -10,11 +10,13 @@ export default class Slider extends Component {
                     {this.props.images.map(p => {
                         return (
                             <Carousel.Item key={Math.random()}>
-                                <img
-                                    className="d-block w-100 img-fluid"
-                                    src={p.photo}
-                                    alt="First slide"
-                                />
+                                <p>
+                                    <img
+                                        className="img-fluid fixed-height"
+                                        src={p.photo}
+                                        alt="First slide"
+                                    />
+                                </p>
                                 <Carousel.Caption>
                                     {p.caption && <h3>{p.caption}</h3>}
                                     {p.description && <p>{p.description}</p>}

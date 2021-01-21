@@ -1,0 +1,15 @@
+.content-container {
+    padding-top: 1rem;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    height: 12vh;
+}
+
+@media(min-width: 992px) {
+    .main-container-meet {
+        height: calc(100vh - 72px - 1rem - 48px - 1rem - 12vh);
+    }
+}
