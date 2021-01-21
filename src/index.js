@@ -9,7 +9,7 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import allReducers from './reducers';
 
-fetch('/state.json').then(r => r.json()).then(state => {
+fetch(process.env.PUBLIC_URL + '/state.json').then(r => r.json()).then(state => {
   const store = createStore(allReducers, state);
 
   ReactDOM.render(
