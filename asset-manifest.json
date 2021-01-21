@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/yashi-website/static/css/main.cc60ff01.chunk.css",
-    "main.js": "/yashi-website/static/js/main.42ef9edb.chunk.js",
-    "main.js.map": "/yashi-website/static/js/main.42ef9edb.chunk.js.map",
+    "main.css": "/yashi-website/static/css/main.92931a8c.chunk.css",
+    "main.js": "/yashi-website/static/js/main.571179fb.chunk.js",
+    "main.js.map": "/yashi-website/static/js/main.571179fb.chunk.js.map",
     "runtime-main.js": "/yashi-website/static/js/runtime-main.e63b6041.js",
     "runtime-main.js.map": "/yashi-website/static/js/runtime-main.e63b6041.js.map",
     "static/css/2.1a02f21c.chunk.css": "/yashi-website/static/css/2.1a02f21c.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.a24069f8.chunk.js.map": "/yashi-website/static/js/3.a24069f8.chunk.js.map",
     "index.html": "/yashi-website/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/yashi-website/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.cc60ff01.chunk.css.map": "/yashi-website/static/css/main.cc60ff01.chunk.css.map",
+    "static/css/main.92931a8c.chunk.css.map": "/yashi-website/static/css/main.92931a8c.chunk.css.map",
     "static/js/2.7580cb95.chunk.js.LICENSE.txt": "/yashi-website/static/js/2.7580cb95.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e63b6041.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.7580cb95.chunk.js",
-    "static/css/main.cc60ff01.chunk.css",
-    "static/js/main.42ef9edb.chunk.js"
+    "static/css/main.92931a8c.chunk.css",
+    "static/js/main.571179fb.chunk.js"
   ]
 }
