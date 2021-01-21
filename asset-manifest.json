@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/yashi-website/static/css/main.92931a8c.chunk.css",
-    "main.js": "/yashi-website/static/js/main.1ffd38fd.chunk.js",
-    "main.js.map": "/yashi-website/static/js/main.1ffd38fd.chunk.js.map",
+    "main.js": "/yashi-website/static/js/main.2103f269.chunk.js",
+    "main.js.map": "/yashi-website/static/js/main.2103f269.chunk.js.map",
     "runtime-main.js": "/yashi-website/static/js/runtime-main.e63b6041.js",
     "runtime-main.js.map": "/yashi-website/static/js/runtime-main.e63b6041.js.map",
     "static/css/2.1a02f21c.chunk.css": "/yashi-website/static/css/2.1a02f21c.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.7580cb95.chunk.js",
     "static/css/main.92931a8c.chunk.css",
-    "static/js/main.1ffd38fd.chunk.js"
+    "static/js/main.2103f269.chunk.js"
   ]
 }
