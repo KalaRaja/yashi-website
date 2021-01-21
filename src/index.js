@@ -12,7 +12,7 @@ import allReducers from './reducers';
 const store = createStore(allReducers);
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Provider store={store}>
       <App />
     </Provider>
