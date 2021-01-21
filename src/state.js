@@ -6,7 +6,8 @@ const state = {
         degree: 'MDS',
         speciality: 'Periodontology',
         logo: 'dental.svg',
-        copyrightText: '© 2021 Yashi Priya. All Rights Reserved.'
+        copyrightText: '© 2021 Yashi Priya. All Rights Reserved.',
+        note: 'All the photos should be of same dimensions'
     },
     pages: [
         {
@@ -48,7 +49,7 @@ const state = {
                     photo: 'd1.jpeg'
                 },
                 {
-                    photo: 'd2.jpg'
+                    photo: 'd2.jpeg'
                 }
             ],
             content: [
@@ -131,9 +132,9 @@ const state = {
             name: 'Meet The Doctor',
             link: 'meet',
             decorativePhotos: [{
-                photo: 'profile1.jpeg'
+                photo: 'profile_r_1.jpeg'
             }, {
-                photo: 'profile2.jpeg'
+                photo: 'profile_r_2.jpeg'
             }],
             content: [
                 {

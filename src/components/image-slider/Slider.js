@@ -10,7 +10,7 @@ export default class Slider extends Component {
                     {this.props.images.map(p => {
                         return (
                             <Carousel.Item key={Math.random()}>
-                                <p>
+                                <p className='centered'>
                                     <img
                                         className="img-fluid fixed-height"
                                         src={p.photo}
