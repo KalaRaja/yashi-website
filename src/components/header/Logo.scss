@@ -1,0 +1,32 @@
+.logo {
+    
+    .title-name {
+        display: flex;
+        font-weight: 300;
+        font-size: 1.6rem;
+
+        .title {
+            margin-right: 10px;
+        }
+
+        .name {
+            width: 80%;
+            display: flex;
+
+            .firstname {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .degree-spec {
+        display: flex;
+        font-size: 1rem;
+
+        .degree {
+            margin-right: 10px;
+            padding-right: 10px;
+            border-right: 2px solid #ccc;
+        }
+    }
+}

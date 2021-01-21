@@ -1,0 +1,25 @@
+.main-heading {
+    display: flex;
+    background-color: #E0F7FA;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.content-container {
+    padding-top: 1rem;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+/*
+@media(min-width: 992px) {
+    .main-container-periodontics {
+        height: calc(100vh - 72px - 1rem - 48px - 1rem - 10vh);
+    }
+}
+*/

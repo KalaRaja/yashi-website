@@ -1,0 +1,40 @@
+.main-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container {
+        padding: 0;
+
+        .content {
+            height: inherit;
+
+            .card {
+                height: 100%;
+
+                .icon {
+                    border: 0;
+                }
+
+                .social {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    div {
+                        padding: 10px 0;
+
+                        img {
+                            height: 32px;
+                            width: 32px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 992px) {
+    .main-container {
+        height: calc(100vh - 72px - 1rem - 48px - 1rem);
+    }
+}
