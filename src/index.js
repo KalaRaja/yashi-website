@@ -9,16 +9,18 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import allReducers from './reducers';
 
-const store = createStore(allReducers);
+fetch('/state.json').then(r => r.json()).then(state => {
+  const store = createStore(allReducers, state);
 
-ReactDOM.render(
-  <HashRouter basename={process.env.PUBLIC_URL}>
-    <Provider store={store}>
-      <App />
-    </Provider>
-  </HashRouter>,
-  document.getElementById('root')
-);
+  ReactDOM.render(
+    <HashRouter basename={process.env.PUBLIC_URL}>
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </HashRouter>,
+    document.getElementById('root')
+  );
+});
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

@@ -1,6 +1,4 @@
-import initialState from '../state';
-
-const allReducers = (state = initialState, action) => {
+const allReducers = (state, action) => {
     return state;
 };
 
