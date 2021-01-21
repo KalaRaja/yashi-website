@@ -17,7 +17,7 @@ class Header extends Component {
         const pages = this.props.pages;
         return pages.map(page => {
             return (
-            <Nav.Link key={Math.random()} href={page.link}>{page.name}</Nav.Link>
+            <Nav.Link key={Math.random()} href={'#' + page.link}>{page.name}</Nav.Link>
             );
         });
     }

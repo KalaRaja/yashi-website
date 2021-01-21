@@ -15,7 +15,6 @@ class App extends Component {
           <Header />
           <main>
             <Switch>
-              <Route path="/" component={Home} exact />
               <Route path="/home" component={Home} exact />
               <Route path="/periodontics" component={Periodontics} exact />
             </Switch>
