@@ -24,8 +24,8 @@ const state = {
                 phoneIcon: 'phone-classic.svg',
                 emailIcon: 'email.svg',
                 contact: {
-                    phones: ['+91 9886429742', '+91 7887325788'],
-                    emails: ['yashipriya1@gmail.com', 'shekhar957@gmail.com']
+                    phones: ['+91 9886429742'],
+                    emails: ['yashipriya1@gmail.com']
                 },
                 socialMedia: [
                     {
