@@ -332,13 +332,14 @@
             "title": "",
             "texts": [
               "During the first visit, Dr Yashi Priya usually reviews the patient’s complete medical and dental histories. It is extremely important for the periodontist to know if any medications are being taken or if the patient is being treated for any condition that can affect periodontal care, such as heart disease, diabetes, or pregnancy.",
-              "The periodontist examines the gums, checks to see if there is any gum line recession, assesses how the teeth fit together when biting, and checks the teeth to see if any are loose. The periodontist will also take a small measuring instrument called a probe and place it between the teeth and gums to determine the depth of those spaces, known as periodontal pockets; this helps the periodontist assess the health of the gums. X-rays (OPG) may also be taken to observe the health of the bone below the gum line.",
-              "We look forward to meeting you !"
+              "The periodontist examines the gums, checks to see if there is any gum line recession, assesses how the teeth fit together when biting, and checks the teeth to see if any are loose. The periodontist will also take a small measuring instrument called a probe and place it between the teeth and gums to determine the depth of those spaces, known as periodontal pockets; this helps the periodontist assess the health of the gums. X-rays (OPG) may also be taken to observe the health of the bone below the gum line."
+              
             ],
             "images": [],
             "links": []
           }
-        ]
+        ],
+        "greeting": "We look forward to meeting you !"
       }
     ]
   }
