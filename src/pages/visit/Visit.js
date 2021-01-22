@@ -20,7 +20,11 @@ class Visit extends Component {
                     <div className='container'>
                         <Slider images={this.props.visitPage.decorativePhotos} />
                         {createContentParagraphs(this.props.visitPage.content)}
+                        <p className='greeting'>
+                            {this.props.visitPage.greeting}
+                        </p>
                     </div>
+                    
                 </div>
             </div>
         );
